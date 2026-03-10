@@ -11,6 +11,13 @@
       "default": "",
       "editor": "textfield"
     },
+    "targetLocations": {
+      "title": "Target Cities",
+      "type": "array",
+      "description": "Enter specific cities for job search (e.g., New York, Austin).",
+      "editor": "stringList",
+      "prefill": []
+    },
     "companyName": {
       "title": "Company Name",
       "type": "string",
@@ -40,7 +47,7 @@
       "minimum": 1,
       "editor": "number"
     },
-   "jobType": {
+    "jobType": {
       "title": "Job Type",
       "type": "string",
       "description": "Select job type.",
